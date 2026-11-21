@@ -22,10 +22,10 @@ sha256sum -c SHA256SUMS.txt
 
 | 仓库 | 标签 | 提交 |
 |---|---|---|
-| zero-coupling-signal-router | `v1.0.0` | `17e93c9e31a8501e642ae14be5dc8c59c0d4bd70` |
-| UIM | `v1.0.0` | `ea73fd5e0bc5908f8565b99c927acf6a42711ed1` |
+| zero-coupling-signal-router | `v1.0.0` | `9b38231df43df1d7782c6ff5ad4a1ff3bb805a32` |
+| UIM | `v1.0.0` | `1fdc63b5f89bf58dd2443d3d0d3684effd6a9562` |
 | zcsr_runtime | `v1.0.0` | `81cfa7aaeb2d34e1c5082a89714d7505947bae62` |
-| zcsr_editor | `v1.0.0` | `ac9f0f8161853590ca191f9f681712b75567acd2` |
+| zcsr_editor | `v1.0.0` | `fac2ea6373fb6e69000c191e720d168b3b8d97cf` |
 | zcsr_tools | `v1.0.0` | `8ce9f75f54b0df7a74720c584ade9f9405fd4441` |
 
 ## 验证状态
@@ -38,7 +38,7 @@ sha256sum -c SHA256SUMS.txt
 | editor | 20/20 通过 |
 | tools | 9/9 通过 |
 
-engine 的 23/23 在本次 1.0 文档收口提交上重新构建验证；tools 的 9/9 在清理提交上重新构建验证。
+engine 的 23/23 与 tools 的 9/9 均按 1.0 标签状态记录。
 
 ## 构建
 
@@ -68,7 +68,7 @@ ctest --test-dir build
 
 ## 文档政策
 
-`docs/archive/` 保留历史架构、API、数学分析和集成说明，用于追溯设计演进，不代表当前实现；发布树不包含临时任务分工、阶段计划和一次性报告。历史文档中的旧模块名和旧口径以归档快照为准。
+`docs/archive/` 保留历史架构、API、数学分析和集成说明，用于追溯设计演进，不代表当前实现。历史文档中的旧模块名和旧口径以归档快照为准。
 
 ## 许可
 
