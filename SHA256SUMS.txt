@@ -1,0 +1,5 @@
+827362cf0e5ab830c9dd9e7e1ccc91dd0f2841956f4bc02d75aa2854092dfd9b  dist/zcsr-editor-1.0.0.zip
+a35c69e4591db479b0398d530ace4945e7b6f1286249a51e14ccddcd6430499e  dist/zcsr-engine-1.0.0.zip
+69a4098fb0bee6292723f602346d3893e1bfe8c6f19bceccae58c72c2cd9a96a  dist/zcsr-runtime-1.0.0.zip
+cb0c5c52f433c6fb1e84cb9f2677c5033481f9fea033b05ffeefbcf1eccdc517  dist/zcsr-tools-1.0.0.zip
+69d1805eab3a6ca5434886b3fdb857865f9e6313e9954c66d7f1368e3f1f55f7  dist/zcsr-uim-1.0.0.zip
