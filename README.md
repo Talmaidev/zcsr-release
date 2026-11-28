@@ -22,23 +22,21 @@ sha256sum -c SHA256SUMS.txt
 
 | 仓库 | 标签 | 提交 |
 |---|---|---|
-| zero-coupling-signal-router | `v1.0.0` | `9b38231df43df1d7782c6ff5ad4a1ff3bb805a32` |
-| UIM | `v1.0.0` | `1fdc63b5f89bf58dd2443d3d0d3684effd6a9562` |
-| zcsr_runtime | `v1.0.0` | `81cfa7aaeb2d34e1c5082a89714d7505947bae62` |
-| zcsr_editor | `v1.0.0` | `fac2ea6373fb6e69000c191e720d168b3b8d97cf` |
-| zcsr_tools | `v1.0.0` | `8ce9f75f54b0df7a74720c584ade9f9405fd4441` |
+| zero-coupling-signal-router | `v1.0.0` | `38af8b518781d50405c8bea6ceeda7519ce81b1f` |
+| UIM | `v1.0.0` | `663271c62fbfa870f92dac81638bb20e0f763604` |
+| zcsr_runtime | `v1.0.0` | `bf41de8e30e59745c0a1d938b93d3da233c9c11e` |
+| zcsr_editor | `v1.0.0` | `f17aab88b04ac6f7cb43edd66d62eced135880ae` |
+| zcsr_tools | `v1.0.0` | `4e992fae94e176270a98d61f8ec125d2ceab3ae4` |
 
 ## 验证状态
 
-| 仓库 | 结果 |
+| 平台 | 结果 |
 |---|---|
-| engine | 23/23 CTest 通过 |
-| UIM | 2/2 通过 |
-| runtime | 默认 6/6；settings ON 10/10 |
-| editor | 20/20 通过 |
-| tools | 9/9 通过 |
+| Windows x64 | 154 registered，153 passed + 1 explicit hardware skip，0 failed；5/5 consumers |
+| Linux x86_64 | 154 registered，148 passed + 6 explicit media/hardware skips，0 failed；Clang 21 ASan 0 failed；editor smoke 30 frames |
+| Android arm64 | build/package pass；real-device demo 13/13 pass；one-shot concurrent stress pass；engine + native demo only |
 
-engine 的 23/23 与 tools 的 9/9 均按 1.0 标签状态记录。
+源码包由各仓库 `v1.0.0` 的 commit 生成，不含 `.git` 历史。
 
 ## 构建
 
